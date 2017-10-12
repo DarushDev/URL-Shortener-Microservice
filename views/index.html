@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        URL Shortener Microservice
+      </h1>
+    </header>
+
+    <main>
+      <p>Pass a URL as a parameter and receive a shortened URL in the JSON response.</p>
+      <h3>Example Input:</h3>
+      <code>https://amusing-harmonica.glitch.me/new/http://www.example.com/</code><br>
+      <code>https://amusing-harmonica.glitch.me/new/http://foo.com:80</code>
+      
+      <h3>Example Output:</h3>
+      <code>{ "original_url":"http://www.example.com/", "short_url":"https://amusing-harmonica.glitch.me/123" }</code>
+    </main>
+    
+    <footer>
+      <div>
+        Created by: <a href="https://www.freecodecamp.org/darushdev">Darush</a>
+      </div>    
+    </footer>
+
+  </body>
+</html>
